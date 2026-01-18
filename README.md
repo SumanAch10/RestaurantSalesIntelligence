@@ -1,4 +1,12 @@
+# OpsPulse
 
+OpsPulse is a FastAPI + PostgreSQL backend for ingesting restaurant/order data, running ETL + analytics (NumPy/Pandas), and exposing metrics/anomaly/forecast endpoints.
+
+---
+
+## Folder Structure
+
+```text
 opspulse/
 ├─ app/
 │  ├─ main.py
@@ -63,4 +71,3 @@ opspulse/
 ├─ Dockerfile
 ├─ requirements.txt (or pyproject.toml)
 └─ README.md
-
